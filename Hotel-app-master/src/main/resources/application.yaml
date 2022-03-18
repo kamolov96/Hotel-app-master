@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  datasource:
+    password: unicorn2021
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/hotel
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
